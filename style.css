@@ -5,11 +5,38 @@
 }
 
 body {
+    background-color: rgba(21, 11, 5, 0.548);
     font-family: 'Muli',sans-serif;
     display: flex;
     margin: 0;
     align-items: center;
     height: 100vh;
+    text-align: center;
     overflow: hidden;
     justify-content: center;
+}
+
+.key {
+    border: 1px solid #999;
+    background-color: #eee;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 150px;
+    position: relative;
+}
+
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: rgba(112, 41, 200, 0.847);
+    font-size: 14px;
 }
